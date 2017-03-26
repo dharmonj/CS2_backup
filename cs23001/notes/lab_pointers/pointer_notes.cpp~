@@ -1,0 +1,24 @@
+//#include <iostream>
+
+
+int main(){
+
+	//int little = 5;
+	//int big = 44;
+
+	//int& ref = little;
+
+	//ref = 12;
+	//ref = big; // ALLOWED
+
+	//&ref= little; // Not allowed
+
+	{
+
+		char * pointy =  NULL;
+		pointy =  new char[5];
+
+		delete [] pointy;
+	}
+	return 0;
+}
